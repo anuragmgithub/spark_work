@@ -12,13 +12,13 @@ helm install spark-helm-kube ./spark-helm-kube -n spark
 
 # 3. Verify the Deployment:
 ## Check the status of the job:
-    ```sh
-    kubectl get jobs -n spark
-    ```
+```sh
+kubectl get jobs -n spark
+```
 ## Check the logs of the job:
-    ```sh
-    kubectl logs job/<job-name> -n spark
-    ```
+```sh
+kubectl logs job/<job-name> -n spark
+```
 
 
 

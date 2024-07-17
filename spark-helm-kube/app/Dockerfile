@@ -2,6 +2,6 @@
 
 FROM bitnami/spark:latest
 
-COPY workout.py /opt/spark-apps/workout.py
+COPY wordcount.py /opt/spark-apps/wordcount.py
 
 ENTRYPOINT [ "/opt/bitnami/scripts/spark/entrypoint.sh" ]
